@@ -4,7 +4,7 @@ const app = express();
 
 const path = require("path");
 
-const userRouter = require("./userRouter");
+// const userRouter = require("./userRouter");
 
 const monggo = require("../lambaitap/monggo");
 
@@ -15,7 +15,7 @@ app.use("/view", express.static(path.join(__dirname, "./view")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use("/todo", router);
-app.use("/user", userRouter);
+// app.use("/user", userRouter);
 app.use("/index", indexRouter);
 app.set("view engine", "ejs");
 
