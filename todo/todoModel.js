@@ -13,11 +13,3 @@ const todoModel = mongoose.model('todo', todoSchema )
 module.exports = todoModel
 
 
-todoModel.create({
-    status : 'téttt',
-    name : 'MANH',
-}).then(function(data){
-    console.log(data);
-}).catch(function(err){
-    console.log(err);
-})

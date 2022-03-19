@@ -1,6 +1,6 @@
-const mongoose = require("mongoose");
+const mongoose = require("./connectDB");
 
-mongoose.connect("mongodb://localhost/k20");
+
 
 const userschema = mongoose.Schema({
     username: String,
