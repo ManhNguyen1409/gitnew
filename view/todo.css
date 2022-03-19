@@ -1,0 +1,34 @@
+.listData {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.bg {
+  z-index: 1;
+  background-image: url("https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  color: white;
+  background :rgb(107, 187, 160);
+  border-radius: 10px;
+}
+table {
+  color: white;
+}
+#button {
+   padding: 15px ;
+    margin: 30px auto;
+  text-align: center;
+  display: flex;
+  justify-content:center
+}
+.data-bs{
+    background-color :rgb(126, 119, 111);
+   padding :10px;
+    width: 100%;
+    margin: 20px;
+    border-radius:10px;
+}
